@@ -1,0 +1,114 @@
+.container{
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-right: 8%;
+    border: 2px solid black;
+    background-color: black;
+    width: 85%;
+    height:60%;
+    
+}
+/* le font ecran */
+.font{
+    background-image: url('djuli.jpg');
+    background-size: 100%;
+    width: 85%;
+    height: 150%;
+    margin-left: 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    margin-bottom: 35px;
+
+}
+/* le div du menu */
+.div_logo{
+    width: 35px;
+    height: 35px;
+    background-color: #232322;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -40px;
+    
+}
+/* la mise en forme de notre logo */
+.logo{
+    padding-top: 25%;
+    margin-left: 10%;
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-top: -20px;
+    
+}
+ .menu ul a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family:'Times New Roman';
+    color: white;
+    margin-left: 20px;
+
+}
+.vertical-line{
+    border-left: 1px solid #bababa;
+    display: inline-block;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#line_bas{
+    margin-top: -20px;
+    padding-top: -20px;
+}
+.ecriture_milieux{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 80px;
+    font-family: Megante;
+}
+.ecriture_milieux p{
+    text-align: justify;
+    margin-left: 25px;
+}
+.position{
+    margin-left: 50px;
+}
+.petit_text_bas{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+tr{
+    margin-left: 20%;
+}
+tr ul li{
+    list-style: none;
+    margin-left: -30px;
+    padding-top: 5px;
+}
+
+tr ul li a img{
+    border-radius: 45%;
+    margin-left: 47px;
+}
+.cercle_orange{
+    border: 1px solid orange;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+ 
